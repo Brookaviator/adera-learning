@@ -3,7 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Adera Learning provides personalized math, homework, academic support, and study skills for students in grades 3–8.">
+  <meta name="description" content="Adera Learning provides personalized math tutoring, homework help, study skills, and academic support for students in grades 3–8. Start with a free 20–30 minute assessment.">
+  <meta name="theme-color" content="#10263f">
+  <meta property="og:title" content="Adera Learning | Strong Foundations. Brighter Futures.">
+  <meta property="og:description" content="Personalized academic support for students in Grades 3–8. Start with a free student assessment.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://aderalearning.com/">
+  <meta name="twitter:card" content="summary">
+  <link rel="canonical" href="https://aderalearning.com/">
   <title>Adera Learning | Strong Foundations. Brighter Futures.</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,16 +18,17 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
 <header class="site-header">
   <a class="brand" href="#home"><span class="mark">A</span><span>ADERA <b>LEARNING</b></span></a>
-  <button class="menu" aria-label="Open navigation">☰</button>
-  <nav>
+  <button class="menu" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-nav">☰</button>
+  <nav id="primary-nav" aria-label="Primary navigation">
     <a href="#programs">Programs</a><a href="#method">How It Works</a><a href="#about">About</a><a href="#faq">FAQ</a>
-    <a class="nav-cta" href="#assessment">Free Assessment</a>
+    <a class="nav-cta" href="https://docs.google.com/forms/d/e/1FAIpQLSexDs1sQbeZbX_6W5kukqbnisSiM3JceWRYBIr-ihDtSS-ZzQ/viewform" target="_blank" rel="noopener">Free Assessment</a>
   </nav>
 </header>
 
-<main>
+<main id="main-content">
 <section class="hero" id="home">
   <div class="hero-copy">
     <span class="eyebrow">PERSONALIZED ACADEMIC SUPPORT • GRADES 3–8</span>
@@ -30,7 +38,7 @@
     <div class="trust"><span>✓ Small Groups</span><span>✓ Personalized Goals</span><span>✓ Parent Progress Updates</span></div>
   </div>
   <div class="hero-card">
-    <div class="book">A</div>
+    <div class="logo-symbol" aria-hidden="true"><span class="logo-star">★</span><span class="logo-a">A</span><span class="logo-book">⌄</span></div>
     <h3>More than homework help.</h3>
     <p>We identify where a student is today, create a focused plan, and track growth over time.</p>
     <div class="grade-badge">GRADES <strong>3–8</strong></div>
@@ -85,6 +93,13 @@
   <details><summary>Will parents receive updates?</summary><p>Yes. Parent communication is a core part of Adera. Group programs include a monthly progress update so families understand what their child is working on and where growth is happening.</p></details>
 </section>
 
+<section class="parent-promise" aria-labelledby="parent-title">
+  <span class="eyebrow">FOR PARENTS</span>
+  <h2 id="parent-title">Know what your student is working on—and why.</h2>
+  <p>Adera is built around clear goals and family communication. We start by understanding your student, focus support where it matters most, and keep you connected to their progress.</p>
+  <div class="promise-grid"><div><strong>01</strong><span>Free starting assessment</span></div><div><strong>02</strong><span>Focused learning priorities</span></div><div><strong>03</strong><span>Monthly progress updates</span></div></div>
+</section>
+
 <section class="assessment" id="assessment">
   <span class="eyebrow">START HERE</span><h2>Begin with a FREE 20–30 minute assessment.</h2>
   <p>We'll identify strengths, areas to strengthen, and the best starting point for your student. No pressure—just a clearer picture of what support may help.</p>
@@ -93,7 +108,7 @@
 </section>
 </main>
 
-<footer><div class="brand"><span class="mark">A</span><span>ADERA <b>LEARNING</b></span></div><p>Strong Foundations. Brighter Futures.</p><p>Academic support for students in Grades 3–8.</p><div>© <span id="year"></span> Adera Learning. All rights reserved.</div></footer>
+<footer><div class="brand"><span class="mark">A</span><span>ADERA <b>LEARNING</b></span></div><p>Strong Foundations. Brighter Futures.</p><p>Academic support for students in Grades 3–8.</p><p class="footer-links"><a href="https://docs.google.com/forms/d/e/1FAIpQLSexDs1sQbeZbX_6W5kukqbnisSiM3JceWRYBIr-ihDtSS-ZzQ/viewform" target="_blank" rel="noopener">Free Assessment</a><a href="privacy.html">Privacy</a></p><div>© <span id="year"></span> Adera Learning. All rights reserved.</div></footer>
 <script src="script.js"></script>
 </body>
 </html>
